@@ -1,4 +1,18 @@
 
+#About-Me {
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+#aboutme-intro {
+    width: 50% ;
+    text-align: left;
+    margin: auto;
+}
+#My-Skills {
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
 
 .skills-logo
 {
@@ -7,6 +21,27 @@
 }
 
 .logo {
-    float:left;
     margin: 20px;
+    float: left;
+}
+
+.container, .row {
+    width: 100%;
+    display:flex;
+    justify-content:center;   
+}
+
+footer {
+    background-color: grey;
+    width: 100%;
+    padding: 20px;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+
+#footer {
+    margin-bottom: 0px;
+    color:white;
 }
