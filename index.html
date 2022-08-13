@@ -8,14 +8,21 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Silkscreen&display=swap"
+    rel="stylesheet">
 
   <title>Anjielo Zapata</title>
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <div class="top-cointainer">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <!-- <a class="navbar-brand" href="#">Anjielo Zapata</a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,71 +30,76 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="#">My Skills</a>
-        <a class="nav-item nav-link" href="#">Socials</a>
-        <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+        <div id="about-scroll">
+          <a class="nav-item nav-link" href="#About-Me">About</a>
+        </div>
 
+        <div id="myskills-scroll">
+          <a class="nav-item nav-link" href="#Socials">Socials</a>
+        </div>
+          <a class="nav-item nav-link" href="projects.html">Projects</a>
+          <a class="nav-item nav-link" href="contact.html">Contact Me</a>
       </div>
     </div>
   </nav>
+
   
     <h1 id="Anjielo-Zapata">Anjielo Zapata</h1>
-    <h4 id="Web-Developer">Web Developer.</h4>
-
-    <div class="container">
-      <div class="row">
-        <div class="socials">
-          <img class="socials-logo" src="linkedin.jpg">
-        </div>
-        <div class="socials">
-          <img class="socials-logo" src="github.png">
-        </div>
-        <div class="socials">
-          <img class="socials-logo" src="codepen.png">
-        </div>
-        <div class="socials">
-          <img class="socials-logo" src="dribble.png">
-        </div>
-      </div>
-    </div>
-
-
-
-  <hr>
-
-  <h3 id="About-Me">About Me</h3>
-
-  <p id="aboutme-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eum voluptates nostrum
-    reiciendis quibusdam cumque necessitatibus sapiente? Alias tempore magnam officia qui laboriosam at architecto atque
-    quae animi vitae eos numquam cumque quidem enim impedit fuga ipsam cum, adipisci blanditiis tenetur rem in dolorum!
-    Repellat enim corporis mollitia non soluta.</p>
-
-  <hr>
-
-  <h3 id="My-Skills">My Skills</h3>
-
-  <div class="container">
-    <div class="row">
-      <div class="logo">
-        <img class="skills-logo" src="html.png">
-      </div>
-      <div class="logo">
-        <img class="skills-logo" src="css.png">
-      </div>
-      <div class="logo">
-        <img class="skills-logo" src="javascript.png">
-      </div>
-      <div class="logo">
-        <img class="skills-logo" src="bootstrap.png">
-      </div>
-    </div>
-  </div>
-
-  <hr>
+    <h4 id="Web-Developer">Web Developer</h4>
+    <div id="resume"><a class="btn btn-outline-light" href="RESUME.docx" download="Anjielo Zapata"
+        role="button">Resume</a></div>
   
-  <footer>
-    <p id="footer">Ⓒ 2022 Anjielo Zapata</p>
+
+
+  </div>
+  <div class="Aboutme-container">
+    <h3 id="About-Me">About Me</h3>
+      <p id="aboutme-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eum voluptates nostrum
+      reiciendis quibusdam cumque necessitatibus sapiente? Alias tempore magnam officia qui laboriosam at architecto
+      atque
+      quae animi vitae eos numquam cumque quidem enim impedit fuga ipsam cum, adipisci blanditiis tenetur rem in
+      dolorum!
+      Repellat enim corporis mollitia non soluta.</p>
+      <h3 id="My-Skills">My Skills</h3>
+      <div class="container">
+        <div class="row">
+          <div class="logo">
+            <img class="skills-logo" src="images/html.png">
+          </div>
+          <div class="logo">
+            <img class="skills-logo" src="images/css.png">
+          </div>
+          <div class="logo">
+            <img class="skills-logo" src="images/javascript.png">
+          </div>
+          <div class="logo">
+            <img class="skills-logo" src="images/bootstrap.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <footer id="Socials">
+    <div class="container2">
+      <div class="row2">
+        <div class="socials">
+          <img class="socials-logo" src="images/linkedin.png">
+        </div>
+        <div class="socials">
+          <img class="socials-logo" src="images/github.png">
+        </div>
+        <div class="socials">
+          <img class="socials-logo" src="images/codepen.png">
+        </div>
+        <div class="socials">
+          <img class="socials-logo" src="images/dribble.png">
+        </div>
+        <div class="socials">
+          <p id="copyright">Ⓒ 2022 Anjielo Zapata</p>
+        </div>
+      </div>
+    </div>
   </footer>
 
 
