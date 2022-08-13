@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get In Touch!</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .bodycontact {
+            background-image: url(/images/laptop.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .table {
+            
+            height: 50vh;
+            width: 50vh;
+            
+        }
+
+    
+
+        td{
+            text-align: left;
+            word-spacing: 20px;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: 'Edu TAS Beginner';
+            color: white;
+            padding-top: 50px;
+            padding-left: 80px;
+        
+
+        }
+
+        .contact-table {
+
+        border: 1px solid white;
+        margin: 200px auto 100px auto;
+        background-color: rgba(11, 11, 11, 0.5);
+        width: 20%;
+
+        }
+
+        #Back {
+            color:azure;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 50px;
+        }
+        
+    </style>
+
+
+</head>
+
+<body class="bodycontact">
+    <a href="index.html"><p id="Back">Back to Homepage</p></a>
+
+    <form>
+        <div class="contact-table">
+        <table class="table">
+            <div class="inside-table">
+            <tr>
+                <td class="td">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="td">
+                    <label>Message</label>
+                    <br>
+                    <br>
+                    <textarea id="message" name="message" rows="5" col="50" required>Type your message here</textarea>
+                    <br>
+                    <br>
+                    <button type="Submit">Submit</button>
+                </td>
+            </tr>
+        </div>
+        </table>
+    </div>
+    </form>
+
+</body>
+</html>
