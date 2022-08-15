@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -5,8 +11,8 @@ html {
 
 .navbar {
     background-image: url(images/footerbackground.jpg);
- 
 }
+
 
 .container-fluid {
     padding: 3% 15%;
@@ -25,16 +31,13 @@ html {
 
 #MyName {
     text-align: center;
-    /* margin: 300px auto 30px auto; */
     color: azure;
     font-family: 'Comfortaa', cursive;
 
 }
 #Web-Developer {
     text-align: center;
-    /* margin: 30px auto 30px auto; */
     color: azure;
-    /* font-family: 'Comfortaa', cursive; */
     font-family: 'Silkscreen', cursive;
 }
 
@@ -47,19 +50,10 @@ html {
     background-size: cover;
 }
 
-/* ABOUT ME BACKGROUND */
-/* .Aboutme-container {
-    background-image: url(images/Blogs.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-} */
 
 .Aboutme-container {
     background-image: url(images/Blogs.png);
     background-position: fixed;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,14 +98,10 @@ html {
     font-size: 2rem;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
-/* hr {
-    width: 3%;
-    border-top: dotted;
-    border-width: 5px;
-    border-color: black;
-} */
 
 /* LOGO OF SKILLS AND SOCIALS */
 
@@ -135,53 +125,64 @@ html {
 }
 
 
-/* .socials {
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-    
-} */
+
 .socials-logo {
     height: 30px;
     width: 130px;
-    margin: 0 20px 0 20px;
-    
+   
 }
 
-/* CONTAINER OF SKILLS AND SOCIALS LOGO */
+.socials-logo:hover {
+    background-color: rgba(11, 11, 11, 0.2);
+}
+
+.socials {
+   
+    margin: 0 30px 0 30px;
+}
+
+
 
 .row {
     width: 100%;
     display:flex;
     justify-content:center; 
-    /* margin-bottom: 220px; */
-    /* margin: 100px auto 100px auto;   */
+   
 }
 
-.container2, .row2 {
-    width: 100%;
-    display:flex;
-    justify-content:center; 
-    /* margin: 100px auto 100px auto;   */
-}
 
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+    
+}
 
 /* FOOTER */
 
 footer {
     background-image: url(images/footerbackground.jpg);
-    /* padding: 10px; */
-    bottom: 0;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-flow: row;
+
     
 
 }
 
+.copyright {
+   
+    text-align: center;
+
+}
+
 #copyright {
-    margin-bottom: 0px;
+   
     color:white;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.mb-4 {
+    margin: 0 !important;
 }
