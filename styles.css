@@ -22,7 +22,7 @@ html {
 }
 
 .main {
-  margin: 350px auto 350px auto;
+  margin: 300px auto 350px auto;
 }
 
 #MyName {
@@ -56,7 +56,7 @@ html {
 
 #About-Me {
   text-align: center;
-  margin: 0px auto 20px auto;
+  margin: 100px auto 0px auto;
   padding-top: 100px;
   padding-bottom: 100px;
   font-family: "Comfortaa", cursive;
@@ -67,7 +67,7 @@ html {
 
 #aboutme-intro {
   text-align: left;
-  margin: auto;
+  margin: 0px auto 120px auto;
   color: #c4d7e0;
   font-family: "Comfortaa", cursive;
   font-size: 1.5rem;
