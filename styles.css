@@ -10,6 +10,8 @@ html {
 
 .navbar {
   background-image: url(images/footerbackground.jpg);
+  position: fixed;
+  width: 100%;
 }
 
 .container-fluid {
